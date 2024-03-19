@@ -1,0 +1,65 @@
+\Chapter{CareBot: A Mental Health Chatbot}
+
+Archana Naik
+Department of Computer Science and Engineering
+Nitte Meenakshi Institute of Technology
+Bangalore,India
+archana.naik@nmit.ac.inUshashree P
+Department of Computer Science and Engineering
+Geethanjali College of Engineering and Technology
+Hydrabad, India
+ushashree.sgs@gmail.com
+Kavitha Sooda
+Department of Computer Science and Engineering
+BMS College of Engineering
+Bangalore,India
+kavithas.cse@bmsce.ac.inAyman Afza Munsur
+Department of Computer Science and Engineering
+Nitte Meenakshi Institute of Technology
+Bangalore,India
+1nt19cs046.ayman@nmit.ac.in
+Humera Fathima
+Department of Computer Science and Engineering
+Nitte Meenakshi Institute of Technology
+Bangalore,India
+1nt19cs085@nmit.ac.inJanhavi Vijay Patil
+Department of Computer Science and Engineering
+Nitte Meenakshi Institute of Technology
+Bangalore,India
+1nt19cs089.janhavi@nmit.ac.in
+
+igskip
+\end{center}
+
+
+noindent{The cognitive, behavioral, and emotional health of
+a person is referred to as their mental health. In the present,
+mental health has emerged as one of the most important yet
+neglected facets of a person’s entire well-being. Though mental
+health chatbots are up and coming, there is still a need for a cost-
+effective, reliable, and interactive system. Stress and anxiety are
+two of the few factors that damage mental health. A person with
+mental health issues may suffer negative outcomes if sufficient
+care is not provided. Nowadays, with advancements in technology,
+one can use a computer to foretell the start of such mental
+health issues. Despite the fact that numerous academics have
+examined a range of methods for predicting depression, they
+frequently depend solely on the use of facial expressions, which,
+because they are subtle and small, can alter the performance of
+the model. Therefore, using more elements like textual analysis
+and emotion detection can help increase accuracy. In this study, a
+method for predicting mental health status using facial expression
+and sentiment analysis results is introduced. Through emotion
+detection and text data characterising the user’s mood, the
+suggested system replicates a one-on-one conversation between
+the user and the chatbot. Emotional detection and textual analysis
+are two features that can help predict mental health states more
+accurately. The suggested chatbot uses cutting-edge technology
+to analyse the user’s mood using a variety of inputs and offer
+suggestions for managing the feeling.
+}
+
+
+noindent	extbf{Keywords:}Artificial neural network, Convolution neural
+network, Web scraping, Natural language Processing, Machine
+learning

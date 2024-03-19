@@ -1,0 +1,38 @@
+import os
+from pypdf import PdfMerger, PdfWriter
+
+merger = PdfWriter()
+
+pdfs = []
+for file in os.listdir():
+    if file.endswith('.pdf'):
+        pdfs.append(file)
+
+for pdf in pdfs:
+    merger.append(pdf)
+
+merger.write("merged.pdf")
+merger.close()
+
+
+
+for page_num in range(file_pages[i]):
+            page = reader.getPage(page_num)
+            image = page.getImage()
+            image.save(f"{dir}/im_{count}.jpeg")
+            count += 1
+
+
+
+
+
+
+
+
+
+
+
+for page in writer.pages:
+    if page.rotation != 0:
+        page.transfer_rotation_to_content()
+    page.merge_page(background, over=False)
