@@ -19,6 +19,8 @@ class PdfImages(Dataset):
 
         image_path = os.path.join(self.path, f"data/Images/{self.df.iloc[idx, 1]}")
         image = read_image(image_path)
+        # image = image.float()
+        # print(type(image), image)
         label = self.df.iloc[idx, 2]
 
         if self.transform:

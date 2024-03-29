@@ -1,5 +1,4 @@
-\Chapter{CareBot: A Mental Health Chatbot}
-
+CareBot: A Mental Health Chatbot
 Archana Naik
 Department of Computer Science and Engineering
 Nitte Meenakshi Institute of Technology
@@ -27,12 +26,7 @@ Department of Computer Science and Engineering
 Nitte Meenakshi Institute of Technology
 Bangalore,India
 1nt19cs089.janhavi@nmit.ac.in
-
-igskip
-\end{center}
-
-
-noindent{The cognitive, behavioral, and emotional health of
+Abstract —The cognitive, behavioral, and emotional health of
 a person is referred to as their mental health. In the present,
 mental health has emerged as one of the most important yet
 neglected facets of a person’s entire well-being. Though mental
@@ -57,9 +51,6 @@ are two features that can help predict mental health states more
 accurately. The suggested chatbot uses cutting-edge technology
 to analyse the user’s mood using a variety of inputs and offer
 suggestions for managing the feeling.
-}
-
-
-noindent	extbf{Keywords:}Artificial neural network, Convolution neural
+Index Terms —Artificial neural network, Convolution neural
 network, Web scraping, Natural language Processing, Machine
 learning

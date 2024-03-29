@@ -52,3 +52,4 @@ def change_text(txt):
     return txt
 
 write_txt(os.getcwd())
+print(f"current working directory", os.getcwd())

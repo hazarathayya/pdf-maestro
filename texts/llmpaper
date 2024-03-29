@@ -1,5 +1,4 @@
-\Chapter{PREPRINT 1}
-
+PREPRINT 1
 A Comprehensive Overview of
 Large Language Models
 Humza Naveed1, Asad Ullah Khan1,∗, Shi Qiu2,∗, Muhammad Saqib3,4,∗,
@@ -13,12 +12,7 @@ Saeed Anwar5,6, Muhammad Usman5,6, Naveed Akhtar7, Nick Barnes8, Ajmal Mian9
 7The University of Melbourne (UoM), Melbourne, Australia
 8Australian National University (ANU), Canberra, Australia
 9The University of Western Australia (UWA), Perth, Australia
-
-igskip
-\end{center}
-
-
-noindent{
+Abstract —
 Large Language Models (LLMs) have recently demonstrated
 remarkable capabilities in natural language processing tasks and
 beyond. This success of LLMs has led to a large influx of research
@@ -41,9 +35,6 @@ intended to not only provide a systematic survey but also a quick
 comprehensive reference for the researchers and practitioners
 to draw insights from extensive informative summaries of the
 existing works to advance the LLM research.
-}
-
-
-noindent	extbf{Keywords:}
+Index Terms —
 Large Language Models, LLMs, chatGPT, Augmented LLMs,
 Multimodal LLMs, LLM training, LLM Benchmarking

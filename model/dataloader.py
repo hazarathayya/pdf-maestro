@@ -21,7 +21,9 @@ print(os.getcwd())
 df = pd.read_csv("./data/pdfimages.csv")
 # """
 path = os.getcwd()
-dataset = PdfImages(df, path, transform=tf.Compose([tf.RandomResizedCrop((256, 256))]))
+dataset = PdfImages(df, path, transform=tf.Compose([tf.RandomResizedCrop((256, 256)),
+                                                    tf.ToTensor(),
+                                                    ]))
 
 train_size = int(len(dataset)*0.8)
 val_size = len(dataset) - train_size
@@ -35,7 +37,7 @@ def get_dl():
     val_dl = DataLoader(val_ds, batch_size*2)
     return train_dl, val_dl
 
-train_dl, val_dl = get_dl()
+# train_dl, val_dl = get_dl()
 # im, l = train_ds[0]
 # plt.imshow(im.permute(1, 2, 0))
 # plt.show()
@@ -49,7 +51,8 @@ def show_batch(dl):
     break
   plt.show()
 
-show_batch(train_dl)
+# To show the batch
+# show_batch(train_dl)
   
 # for i in range(343, 350):
 #   im, l = train_ds[i]
@@ -60,4 +63,4 @@ show_batch(train_dl)
 
 # """
 
-  
+
